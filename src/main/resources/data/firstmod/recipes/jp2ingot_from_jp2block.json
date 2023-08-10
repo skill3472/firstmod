@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "firstmod:jp2block"
+    }
+  ],
+  "result": {
+    "item": "firstmod:jp2ingot",
+    "count": 9
+  }
+}

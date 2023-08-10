@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "jp2",
+  "ingredient": {
+    "item": "firstmod:jp2raw"
+  },
+  "result": "firstmod:jp2ingot"
+}

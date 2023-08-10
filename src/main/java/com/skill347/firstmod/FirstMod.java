@@ -1,5 +1,6 @@
 package com.skill347.firstmod;
 
+import com.skill347.firstmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +12,6 @@ public class FirstMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.RegisterModItems();
 	}
 }

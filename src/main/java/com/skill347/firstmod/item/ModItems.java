@@ -12,9 +12,11 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item JP2INGOT = registerItem("jp2ingot", new Item(new FabricItemSettings()));
+    public static final Item JP2RAW = registerItem("jp2raw", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientsTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(JP2INGOT);
+        entries.add(JP2RAW);
     }
 
     private static Item registerItem(String name, Item item){
